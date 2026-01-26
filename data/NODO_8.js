@@ -12,6 +12,7 @@ var json_NODO_8 = {
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO_ZAPOTILLO", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -80.244575176512797, -4.387834094272646 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO_MACARA", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -79.941095639104148, -4.384781698400567 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO_ALGODONAL", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -80.0537660542673, -4.285191566639855 ] } },
-{ "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO: UTUANA", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -79.707915811393235, -4.362060576098898 ] } }
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO: UTUANA", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -79.707915811393235, -4.362060576098898 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "EL TAMBO", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -79.307954918395907, -4.072841430864569 ] } }
 ]
 }
