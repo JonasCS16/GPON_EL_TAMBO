@@ -39,12 +39,13 @@ var json_DOMOS_10 = {
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D16" }, "geometry": { "type": "Point", "coordinates": [ -79.634137293273525, -4.3271958847765 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D3" }, "geometry": { "type": "Point", "coordinates": [ -79.662075782597256, -4.318411838270234 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D6" }, "geometry": { "type": "Point", "coordinates": [ -79.305054126358215, -4.099001084533038 ] } },
-{ "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.294542202899564, -4.138337789726822 ] } },
-{ "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.294353065627774, -4.14794610774639 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D8" }, "geometry": { "type": "Point", "coordinates": [ -79.294491707838503, -4.138710397358426 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D9" }, "geometry": { "type": "Point", "coordinates": [ -79.294353065627774, -4.14794610774639 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.300924497234959, -4.173157917115165 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -80.094796605373247, -4.138575858772258 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -80.088931904674695, -4.134767516108223 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -80.054244463478724, -4.121176450407996 ] } },
-{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D7" }, "geometry": { "type": "Point", "coordinates": [ -79.302198559208549, -4.124695729857311 ] } }
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D7" }, "geometry": { "type": "Point", "coordinates": [ -79.302198559208549, -4.124695729857311 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D10" }, "geometry": { "type": "Point", "coordinates": [ -79.297071770225969, -4.15976678508247 ] } }
 ]
 }

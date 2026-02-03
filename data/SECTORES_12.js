@@ -29,6 +29,8 @@ var json_SECTORES_12 = {
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "POZUL" }, "geometry": { "type": "Point", "coordinates": [ -80.053569932406035, -4.120617123397541 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Naranjito" }, "geometry": { "type": "Point", "coordinates": [ -80.089379704481232, -4.134156480754962 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Roblones" }, "geometry": { "type": "Point", "coordinates": [ -80.095535425086553, -4.138690811442352 ] } },
-{ "type": "Feature", "properties": { "id": null, "NOMBRE": "La Extensa" }, "geometry": { "type": "Point", "coordinates": [ -79.364609431582139, -4.039059042231893 ] } }
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "La Extensa" }, "geometry": { "type": "Point", "coordinates": [ -79.364609431582139, -4.039059042231893 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "San Agustin" }, "geometry": { "type": "Point", "coordinates": [ -79.293590172145187, -4.137652505144334 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "La Merced" }, "geometry": { "type": "Point", "coordinates": [ -79.295982549059445, -4.147625609012683 ] } }
 ]
 }
