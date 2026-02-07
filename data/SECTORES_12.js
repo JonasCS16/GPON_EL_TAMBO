@@ -31,6 +31,7 @@ var json_SECTORES_12 = {
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Roblones" }, "geometry": { "type": "Point", "coordinates": [ -80.095535425086553, -4.138690811442352 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "La Extensa" }, "geometry": { "type": "Point", "coordinates": [ -79.364609431582139, -4.039059042231893 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "San Agustin" }, "geometry": { "type": "Point", "coordinates": [ -79.293590172145187, -4.137652505144334 ] } },
-{ "type": "Feature", "properties": { "id": null, "NOMBRE": "La Merced" }, "geometry": { "type": "Point", "coordinates": [ -79.295982549059445, -4.147625609012683 ] } }
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "La Merced" }, "geometry": { "type": "Point", "coordinates": [ -79.295982549059445, -4.147625609012683 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "Santo Domingo" }, "geometry": { "type": "Point", "coordinates": [ -79.300002599173524, -4.174655578962314 ] } }
 ]
 }
