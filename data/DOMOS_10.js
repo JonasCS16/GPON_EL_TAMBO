@@ -48,6 +48,7 @@ var json_DOMOS_10 = {
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D7" }, "geometry": { "type": "Point", "coordinates": [ -79.302198559208549, -4.124695729857311 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D10" }, "geometry": { "type": "Point", "coordinates": [ -79.297071770225969, -4.15976678508247 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.301361093110174, -4.170492807733213 ] } },
-{ "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.297363137208919, -4.163742875663524 ] } }
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.297363137208919, -4.163742875663524 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.357585679356347, -4.042475083757606 ] } }
 ]
 }
