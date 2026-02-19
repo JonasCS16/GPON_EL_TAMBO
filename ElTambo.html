@@ -56,7 +56,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[-4.0569778760171085,-79.34414358814941],[-4.04950962116565,-79.33259053079885]]);
+        }).fitBounds([[-4.06813720429356,-79.38739518726136],[-4.025602825019659,-79.32159691531996]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -74,20 +74,53 @@
          }
          return tempDiv.innerHTML;
         }
-        // add class to format popup if it contains media
-		function addClassToPopupIfMedia(content, popup) {
-			var tempDiv = document.createElement('div');
-			tempDiv.innerHTML = content;
-			if (tempDiv.querySelector('td img')) {
-				popup._contentNode.classList.add('media');
-					// Delay to force the redraw
-					setTimeout(function() {
-						popup.update();
-					}, 10);
-			} else {
-				popup._contentNode.classList.remove('media');
-			}
-		}
+        // modify popup if contains media
+        function addClassToPopupIfMedia(content, popup) {
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = content;
+            var imgTd = tempDiv.querySelector('td img');
+            if (imgTd) {
+                var src = imgTd.getAttribute('src');
+                if (/\.(jpg|jpeg|png|gif|bmp|webp|avif)$/i.test(src)) {
+                    popup._contentNode.classList.add('media');
+                    setTimeout(function() {
+                        popup.update();
+                    }, 10);
+                } else if (/\.(mp3|wav|ogg|aac)$/i.test(src)) {
+                    var audio = document.createElement('audio');
+                    audio.controls = true;
+                    audio.src = src;
+                    imgTd.parentNode.replaceChild(audio, imgTd);
+                    popup._contentNode.classList.add('media');
+                    setTimeout(function() {
+                        popup.setContent(tempDiv.innerHTML);
+                        popup.update();
+                    }, 10);
+                } else if (/\.(mp4|webm|ogg|mov)$/i.test(src)) {
+                    var video = document.createElement('video');
+                    video.controls = true;
+                    video.src = src;
+                    video.style.width = "400px";
+                    video.style.height = "300px";
+                    video.style.maxHeight = "60vh";
+                    video.style.maxWidth = "60vw";
+                    imgTd.parentNode.replaceChild(video, imgTd);
+                    popup._contentNode.classList.add('media');
+                    // Aggiorna il popup quando il video carica i metadati
+                    video.addEventListener('loadedmetadata', function() {
+                        popup.update();
+                    });
+                    setTimeout(function() {
+                        popup.setContent(tempDiv.innerHTML);
+                        popup.update();
+                    }, 10);
+                } else {
+                    popup._contentNode.classList.remove('media');
+                }
+            } else {
+                popup._contentNode.classList.remove('media');
+            }
+        }
         var zoomControl = L.control.zoom({
             position: 'topleft'
         }).addTo(map);
@@ -933,6 +966,6 @@
         map.on("layerremove", function(){
             resetLabels([layer_POSTE_METALICO_1,layer_POSTES_EERSSA_2,layer_POSTES_CNT_3,layer_NODO_8,layer_MANGAS_LINEALES_9,layer_DOMOS_10,layer_NAPS_11,layer_SECTORES_12]);
         });
-        </script>
+        </script>        
     </body>
 </html>
