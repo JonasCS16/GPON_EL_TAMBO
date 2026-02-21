@@ -41,6 +41,7 @@ var json_MANGAS_LINEALES_9 = {
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_01" }, "geometry": { "type": "Point", "coordinates": [ -79.306378483455248, -4.078065203558365 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.293046792182352, -4.141791579668023 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_03" }, "geometry": { "type": "Point", "coordinates": [ -79.299417390170746, -4.180099610540858 ] } },
-{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL" }, "geometry": { "type": "Point", "coordinates": [ -79.337535276854709, -4.051603994684147 ] } }
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL" }, "geometry": { "type": "Point", "coordinates": [ -79.337535276854709, -4.051603994684147 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL" }, "geometry": { "type": "Point", "coordinates": [ -79.359132024075279, -4.038070034623774 ] } }
 ]
 }
