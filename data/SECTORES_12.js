@@ -33,6 +33,11 @@ var json_SECTORES_12 = {
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "San Agustin" }, "geometry": { "type": "Point", "coordinates": [ -79.293590172145187, -4.137652505144334 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "La Merced" }, "geometry": { "type": "Point", "coordinates": [ -79.295982549059445, -4.147625609012683 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Santo Domingo" }, "geometry": { "type": "Point", "coordinates": [ -79.300002599173524, -4.174655578962314 ] } },
-{ "type": "Feature", "properties": { "id": null, "NOMBRE": "Juanes" }, "geometry": { "type": "Point", "coordinates": [ -79.332974187015694, -4.05595209416067 ] } }
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "Juanes" }, "geometry": { "type": "Point", "coordinates": [ -79.332974187015694, -4.05595209416067 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "El Sauce" }, "geometry": { "type": "Point", "coordinates": [ -79.235605443853828, -4.206100232628637 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "La Florida" }, "geometry": { "type": "Point", "coordinates": [ -79.257658338039519, -4.19759182068842 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "Belen" }, "geometry": { "type": "Point", "coordinates": [ -79.24311004160397, -4.19509995753824 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "San Francisco Alto" }, "geometry": { "type": "Point", "coordinates": [ -79.24810716446126, -4.185200759096788 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "San Francisco Medio" }, "geometry": { "type": "Point", "coordinates": [ -79.255241996182505, -4.192002200674529 ] } }
 ]
 }
