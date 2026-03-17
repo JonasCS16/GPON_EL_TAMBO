@@ -3,6 +3,7 @@ var json_SECTORES_11 = {
 "name": "SECTORES_11",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "El Sauce" }, "geometry": { "type": "Point", "coordinates": [ -79.235605443853828, -4.206100232628637 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "El Dulce" }, "geometry": { "type": "Point", "coordinates": [ -79.967660482339369, -4.040072727301742 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Sabanilla" }, "geometry": { "type": "Point", "coordinates": [ -80.129725259262457, -4.202202078825969 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Quillusara" }, "geometry": { "type": "Point", "coordinates": [ -80.125387178845912, -4.170566986508716 ] } },
@@ -31,6 +32,8 @@ var json_SECTORES_11 = {
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Roblones" }, "geometry": { "type": "Point", "coordinates": [ -80.095535425086553, -4.138690811442352 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "La Extensa" }, "geometry": { "type": "Point", "coordinates": [ -79.364609431582139, -4.039059042231893 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "San Agustin" }, "geometry": { "type": "Point", "coordinates": [ -79.293590172145187, -4.137652505144334 ] } },
-{ "type": "Feature", "properties": { "id": null, "NOMBRE": "La Merced" }, "geometry": { "type": "Point", "coordinates": [ -79.295982549059445, -4.147625609012683 ] } }
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "La Merced" }, "geometry": { "type": "Point", "coordinates": [ -79.295982549059445, -4.147625609012683 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "Santo Domingo" }, "geometry": { "type": "Point", "coordinates": [ -79.300002599173524, -4.174655578962314 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "Juanes" }, "geometry": { "type": "Point", "coordinates": [ -79.332974187015694, -4.05595209416067 ] } }
 ]
 }
