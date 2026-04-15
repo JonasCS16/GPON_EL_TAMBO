@@ -38,6 +38,7 @@ var json_SECTORES_12 = {
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "La Florida" }, "geometry": { "type": "Point", "coordinates": [ -79.257658338039519, -4.19759182068842 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Belen" }, "geometry": { "type": "Point", "coordinates": [ -79.24311004160397, -4.19509995753824 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "San Francisco Alto" }, "geometry": { "type": "Point", "coordinates": [ -79.24810716446126, -4.185200759096788 ] } },
-{ "type": "Feature", "properties": { "id": null, "NOMBRE": "San Francisco Medio" }, "geometry": { "type": "Point", "coordinates": [ -79.255241996182505, -4.192002200674529 ] } }
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "San Francisco Medio" }, "geometry": { "type": "Point", "coordinates": [ -79.255241996182505, -4.192002200674529 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "Saguaynuma" }, "geometry": { "type": "Point", "coordinates": [ -79.263555207693372, -4.207028368462561 ] } }
 ]
 }
