@@ -245,6 +245,9 @@ var json_POSTE_METALICO_1 = {
 { "type": "Feature", "properties": { "id": null, "ALTURA": "PM07m" }, "geometry": { "type": "Point", "coordinates": [ -79.248459661508363, -4.200923345376775 ] } },
 { "type": "Feature", "properties": { "id": null, "ALTURA": "PM07m" }, "geometry": { "type": "Point", "coordinates": [ -79.257279394480548, -4.199596301338143 ] } },
 { "type": "Feature", "properties": { "id": null, "ALTURA": "PM07m" }, "geometry": { "type": "Point", "coordinates": [ -79.257418981775231, -4.198992059606811 ] } },
-{ "type": "Feature", "properties": { "id": null, "ALTURA": "PM07m" }, "geometry": { "type": "Point", "coordinates": [ -79.25770112630704, -4.198648470962694 ] } }
+{ "type": "Feature", "properties": { "id": null, "ALTURA": "PM07m" }, "geometry": { "type": "Point", "coordinates": [ -79.25770112630704, -4.198648470962694 ] } },
+{ "type": "Feature", "properties": { "id": null, "ALTURA": "PM06m" }, "geometry": { "type": "Point", "coordinates": [ -79.27102346149735, -4.209017132114212 ] } },
+{ "type": "Feature", "properties": { "id": null, "ALTURA": "PM07m" }, "geometry": { "type": "Point", "coordinates": [ -79.270792998024476, -4.208567991393476 ] } },
+{ "type": "Feature", "properties": { "id": null, "ALTURA": "PM07m" }, "geometry": { "type": "Point", "coordinates": [ -79.27068023302246, -4.208150480068605 ] } }
 ]
 }
